@@ -1,0 +1,15 @@
+﻿@mixin transform ($val: 0) {
+    transform: $val;
+    -webkit-transform: $val;
+    -moz-transform: $val;
+    -ms-transform: $val;
+    -o-transform: $val;
+}
+
+.test{ 
+    border: 1px solid red;
+    background-color: aqua;
+    &:hover{
+      @include transform (rotate(-180deg));  
+    }
+  }

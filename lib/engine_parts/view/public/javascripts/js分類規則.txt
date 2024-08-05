@@ -1,0 +1,14 @@
+
+
+library：存放網路抓下來的Plug-in檔案(包括jquery系列)
+
+
+project：放專案相關的檔案
+project\common：放基本不隨著專案變動的工具類型的code
+project\main：放main.handlebars要載入的js檔案
+
+project\其他自訂的資料夾名稱：依專案需求
+
+
+
+

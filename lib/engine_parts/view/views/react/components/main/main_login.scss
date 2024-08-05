@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+//讓Spin(讀取中) 的樣式置中
+.ant-spin.ant-spin-spinning.ant-spin-show-text {
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  position: fixed;
+}
+
+
+
+//leo edit
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+//內容上方的帳號選單
+.account-menu {
+  height: 50px;
+  text-align: center;
+  background-color: #27478b;
+
+  .user {
+    float: right;
+    margin: 8px 20px 0 0;
+  }
+}
+
+//左方Menu內容
+.main-sider {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #e4ebf1 0%, #f6fbfd 100%);
+  background-attachment: fixed;
+  -webkit-box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.menu-title {
+  font-size: 1.25rem;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  color: #c6d7fa;
+  text-align: center;
+  font-weight: 600;
+  background-color: rgb(39, 71, 139);
+  z-index: 10;
+}
+
+.agent-menu {
+  width: 100%;
+  font-size: 0.9rem;
+  position: relative;
+  padding: 0;
+  background-attachment: fixed;
+  overflow-y: auto;
+}
+
+//右方主畫面
+.main-content {
+  flex: 1;
+  position: relative;
+  overflow-y: auto;
+  padding: 20px 40px;
+  background: url(/images/bg.svg) center bottom no-repeat;
+  background-size: cover;
+  @media (max-width:1400px) {
+    padding: 20px 30px;
+  }
+  @media (max-width:1000px) {
+    padding: 20px 20px;
+  }
+}
+
+//scrollbar
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: rgba(85, 85, 85, 0.15);
+}
+
+::-webkit-scrollbar-thumb:active {
+  border-radius: 0;
+  background-color: rgba(85, 85, 85, 0.35);
+}

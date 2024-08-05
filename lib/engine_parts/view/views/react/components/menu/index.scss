@@ -1,0 +1,66 @@
+.menuContainer {
+    //不能選取
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 20px;
+    padding:0;
+    color: rgba(0, 0, 0, 0.8);
+
+    .active {
+        background-color: rgba(156, 184, 226, 0.3);
+        color: #2e346e;
+    }
+
+    .closeIcon,
+    .openIcon {
+        height: 25px;
+        width: 15px;
+        cursor: pointer;
+    }
+
+    //TODO 更換正式圖片
+    .closeIcon {
+        background: url(http://www.renchuanstorage.synology.me:18000/platformtool/plugins/sitemap/styles/images/plus.gif) left center no-repeat;
+    }
+
+    //TODO 更換正式圖片
+    .openIcon {
+        background: url(http://www.renchuanstorage.synology.me:18000/platformtool/plugins/sitemap/styles/images/minus.gif) left center no-repeat;
+    }
+
+
+    .active>span {
+        font-weight: 600 !important;
+    }
+    .titleContainer,.menuItemontainer {
+        display: flex;
+        padding:1px 0;
+    }
+    .titleContainer {
+        border-top: 1px solid rgba(255, 255, 255, 0.6);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+
+    .titleContainer>span,
+    .menuItemontainer>span {
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 0.90rem;
+        padding-left: 5px;
+        flex:1;
+    }
+
+    li {
+        list-style-type: none;
+
+        span {
+            cursor: pointer;
+            font-weight: 400;
+            font-size: 13px;
+        }
+    }
+}

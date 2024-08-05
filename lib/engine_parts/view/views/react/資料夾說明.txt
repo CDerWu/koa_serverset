@@ -1,0 +1,19 @@
+﻿
+components/level1
+ * level1 依系統區分
+ * common ui component
+
+containers/level1
+ * level1 依系統區分
+ * 使用 import { connect } from 'react-redux';
+ * 訂閱 Redux state, Dispatch Redux action, 資料可連結到 presentational component
+
+reducers/level1
+ * level1 依系統區分
+ * reducer每一個都管理它所擁有的 redux state 一部分
+
+reducers/combineapp.js
+ * redux state 結合後資料長像
+
+/actions.js
+ * redux action type, action creator define

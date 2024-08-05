@@ -1,0 +1,12 @@
+{
+    "name": "koa_core",
+    "version": "0.0.0",
+    "description": "koa_core",
+    "author": {
+        "name": "CDerWu"
+    },
+    "dependencies": {
+        "koa-bodyparser": "^4.2.1",
+        "@cderwu/koa_serverset": "^2.3.3"
+    }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "env": {
+    "development": {
+      "plugins": []
+    },
+    "production": {
+      "plugins": []
+    }
+  },
+
+  "comments": false
+}

@@ -1,0 +1,38 @@
+﻿
+div {
+    flex-direction: row;
+}
+
+div span {
+    padding: 15px;/* 
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px; */
+    text-align: left;
+}
+
+div input {
+    width: 243px;
+    height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+
+p.error {
+    margin: 1px;
+}
+
+p.error span.show {
+    font-weight: bold;
+    visibility: visible;
+    color: #ff0000;
+}
+
+p.error span.hidden {
+    visibility: hidden;
+    color: #ff0000;
+}
+

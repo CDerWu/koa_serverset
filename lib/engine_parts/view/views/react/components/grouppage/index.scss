@@ -1,0 +1,157 @@
+.groupPageContainer {
+    .buttonContainer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        text-align: center;
+        justify-content: center;
+
+        button {
+            min-width: 130px;
+            max-width: 130px;
+            border-radius: 50%;
+            height: 130px;
+            vertical-align: middle;
+            color: #fff;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            border: 0;
+            line-height: 1.4;
+            transition: all .25s ease-in-out;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
+            i {
+                display: block;
+                font-size: 2.3rem;
+                margin: -8px auto 10px auto;
+                transition: all .25s ease-in-out;
+                opacity: 0.4;
+            }
+
+            &:nth-child(1) {
+                background-color: #F69F98;
+
+                &:hover {
+                    background-color: #eb8982;
+                }
+            }
+
+            &:nth-child(2) {
+                background-color: #CB91D5;
+
+                &:hover {
+                    background-color: #ba78c7;
+                }
+            }
+
+            &:nth-child(3) {
+                background-color: #9DA6D8;
+
+                &:hover {
+                    background-color: #848fce;
+                }
+            }
+
+            &:nth-child(4) {
+                background-color: #7FD2F7;
+
+                &:hover {
+                    background-color: #5db6df;
+                }
+            }
+
+            &:nth-child(5) {
+                background-color: #7DC8C1;
+
+                &:hover {
+                    background-color: #5ebbb2;
+                }
+            }
+
+            &:nth-child(6) {
+                background-color: #b6d88e;
+
+                &:hover {
+                    background-color: #98c269;
+                }
+            }
+
+            &:nth-child(7) {
+                background-color: #FCC97D;
+
+                &:hover {
+                    background-color: #ebb15a;
+                }
+            }
+
+            &:nth-child(8) {
+                background-color: #b9a299;
+
+                &:hover {
+                    background-color: #aa8476;
+                }
+            }
+
+            &:nth-child(9) {
+                background-color: #96afbb;
+
+                &:hover {
+                    background-color: #799cac;
+                }
+            }
+
+            &:nth-child(10) {
+                background-color: #7FC9D4;
+
+                &:hover {
+                    background-color: #5bb4c2;
+                }
+            }
+
+            &:hover {
+                -webkit-transform: translateZ(50px);
+                transform: translateZ(50px);
+                -webkit-transform: translateY(-15px);
+                transform: translateY(-15px);
+                box-shadow: 0 8px 15px 0px rgba(0, 0, 0, 0.15);
+
+                i {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        button>span {
+            width: 100px;
+            height: 80px;
+            white-space: normal;
+            font-weight: bold;
+            font-family: Microsoft JhengHei,
+                -apple-system,
+                // Chrome < 56 for OS X (San Francisco)
+                BlinkMacSystemFont,
+                "Chinese Quote",
+                "BlinkMacSystemFont",
+                // Windows
+                "Segoe UI",
+                // Android
+                "Roboto",
+                "PingFang SC",
+                "Hiragino Sans GB",
+                "Microsoft YaHei",
+                "Helvetica Neue",
+                "Helvetica",
+                "Arial",
+                "sans-serif";
+            margin: 0;
+        }
+    }
+
+    .btn-group {
+        margin: 20px;
+    }
+}

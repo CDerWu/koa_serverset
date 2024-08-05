@@ -1,0 +1,14 @@
+{
+    "name": "koa_serverset",
+    "version": "2.3.3",
+    "description": "koa_serverset",
+    "main": "lib/index.js",
+    "author": {
+        "name": "CDer"
+    },
+    "dependencies": {
+        "koa": "^2.6.2",
+        "koa_autorouter": "github:CDerWu/koa_autorouter",
+        "module-alias": "^2.1.0"
+    }
+}

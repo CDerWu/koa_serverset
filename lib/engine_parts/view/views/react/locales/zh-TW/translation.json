@@ -1,0 +1,18 @@
+{
+    "login": {
+        "item_introduction": "介紹",
+        "test1": "測試zh-TW, {desc}"
+    },
+    "common": {
+        "loading": "讀取中..."
+    },
+    "defaultpage": {
+        "title": "很抱歉",
+        "content": "你訪問的頁面目前不存在"
+    },
+    "menu": {
+        "menu_title": "功能選單",
+        "default_title": "預設列表",
+        "default_page": "預設頁面"
+    }
+}
