@@ -7,6 +7,6 @@
     },
     "dependencies": {
         "koa-bodyparser": "^4.2.1",
-        "@cderwu/koa_serverset": "^2.3.3"
+        "koa_serverset": "github:CDerWu/koa_serverset"
     }
 }
